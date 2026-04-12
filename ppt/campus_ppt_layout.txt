@@ -1,0 +1,757 @@
+Slide width: 12192000 EMU = 13.33 inches
+Slide height: 6858000 EMU = 7.50 inches
+Total slides: 21
+
+=== Slide 1 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.67in, top=0.67in, w=1.67in, h=0.06in
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.67in, top=0.78in, w=0.56in, h=0.06in
+  Shape: AutoShape 4, Type: AUTO_SHAPE (1)
+    Position: left=11.00in, top=6.78in, w=1.67in, h=0.06in
+  Shape: AutoShape 5, Type: AUTO_SHAPE (1)
+    Position: left=12.11in, top=6.67in, w=0.56in, h=0.06in
+  Shape: Picture 6, Type: PICTURE (13)
+    Position: left=6.22in, top=1.39in, w=0.89in, h=0.89in
+  Shape: AutoShape 7, Type: AUTO_SHAPE (1)
+    Position: left=1.44in, top=2.50in, w=10.44in, h=0.83in
+    TEXT: 校园二手交易系统设计 [size=457200, bold=True]
+  Shape: Connector 8, Type: LINE (9)
+    Position: left=5.28in, top=3.47in, w=2.78in, h=0.01in
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=3.75in, w=11.11in, h=0.56in
+    TEXT: 数据库小组作业成果展示 [size=254000, bold=False]
+  Shape: AutoShape 10, Type: AUTO_SHAPE (1)
+    Position: left=4.21in, top=4.86in, w=4.92in, h=1.32in
+  Shape: AutoShape 11, Type: AUTO_SHAPE (1)
+    Position: left=4.34in, top=5.00in, w=4.54in, h=1.03in
+    TEXT: 报告人：赵恢栋，常修源，黄鑫，魏奕晨，唐雪茹 [size=203200, bold=False]
+    TEXT: 2026.3.17 [size=203200, bold=False]
+
+=== Slide 2 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=0.56in, w=1.11in, h=0.56in
+    TEXT: 目录 [size=457200, bold=True]
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.25in, w=0.83in, h=0.06in
+  Shape: AutoShape 4, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.81in, w=11.67in, h=0.97in
+  Shape: AutoShape 5, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=1.94in, w=0.83in, h=0.69in
+    TEXT: 01 [size=355600, bold=True]
+  Shape: AutoShape 6, Type: AUTO_SHAPE (1)
+    Position: left=2.08in, top=1.94in, w=8.33in, h=0.69in
+    TEXT: 项目背景与选题 [size=254000, bold=True]
+  Shape: Picture 7, Type: PICTURE (13)
+    Position: left=11.67in, top=2.01in, w=0.56in, h=0.56in
+  Shape: AutoShape 8, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=2.92in, w=11.67in, h=0.97in
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=3.06in, w=0.83in, h=0.69in
+    TEXT: 02 [size=355600, bold=True]
+  Shape: AutoShape 10, Type: AUTO_SHAPE (1)
+    Position: left=2.08in, top=3.06in, w=8.33in, h=0.69in
+    TEXT: 数据库设计核心 [size=254000, bold=True]
+  Shape: Picture 11, Type: PICTURE (13)
+    Position: left=11.67in, top=3.12in, w=0.56in, h=0.56in
+  Shape: AutoShape 12, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=4.03in, w=11.67in, h=0.97in
+  Shape: AutoShape 13, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=4.17in, w=0.83in, h=0.69in
+    TEXT: 03 [size=355600, bold=True]
+  Shape: AutoShape 14, Type: AUTO_SHAPE (1)
+    Position: left=2.08in, top=4.17in, w=8.33in, h=0.69in
+    TEXT: 系统ER图展示 [size=254000, bold=True]
+  Shape: Picture 15, Type: PICTURE (13)
+    Position: left=11.67in, top=4.24in, w=0.56in, h=0.56in
+  Shape: AutoShape 16, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=5.14in, w=11.67in, h=0.97in
+  Shape: AutoShape 17, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=5.28in, w=0.83in, h=0.69in
+    TEXT: 04 [size=355600, bold=True]
+  Shape: AutoShape 18, Type: AUTO_SHAPE (1)
+    Position: left=2.08in, top=5.28in, w=8.33in, h=0.69in
+    TEXT: 数据表结构展示 [size=254000, bold=True]
+  Shape: Picture 19, Type: PICTURE (13)
+    Position: left=11.67in, top=5.35in, w=0.56in, h=0.56in
+
+=== Slide 3 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=0.00in, w=13.33in, h=7.50in
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=0.00in, w=13.33in, h=0.08in
+  Shape: Picture 4, Type: PICTURE (13)
+    Position: left=6.22in, top=1.53in, w=0.89in, h=0.89in
+  Shape: AutoShape 5, Type: AUTO_SHAPE (1)
+    Position: left=3.89in, top=2.57in, w=5.56in, h=0.42in
+    TEXT: CHAPTER 01 [size=228600, bold=False]
+  Shape: AutoShape 6, Type: AUTO_SHAPE (1)
+    Position: left=3.74in, top=3.06in, w=5.86in, h=0.83in
+    TEXT: 项目背景与选题 [size=609600, bold=True]
+  Shape: Connector 7, Type: LINE (9)
+    Position: left=5.97in, top=4.02in, w=1.39in, h=0.01in
+  Shape: AutoShape 8, Type: AUTO_SHAPE (1)
+    Position: left=1.81in, top=4.44in, w=9.72in, h=1.11in
+    TEXT: 阐述选择开发校园二手交易系统的初衷、现实意义与核心价值， [size=203200, bold=False]
+    TEXT: 明确项目旨在解决的关键问题，为整个设计方案提供立论基础。 [size=203200, bold=False]
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=7.42in, w=13.33in, h=0.08in
+  Shape: Picture 10, Type: PICTURE (13)
+    Position: left=12.50in, top=3.47in, w=0.33in, h=0.33in
+  Shape: Picture 11, Type: PICTURE (13)
+    Position: left=0.50in, top=3.47in, w=0.33in, h=0.33in
+
+=== Slide 4 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=0.69in, w=5.86in, h=0.56in
+    TEXT: 聚焦痛点，明确系统价值 [size=406400, bold=True]
+  Shape: Connector 3, Type: LINE (9)
+    Position: left=0.83in, top=1.38in, w=1.11in, h=0.01in
+  Shape: AutoShape 4, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.81in, w=3.61in, h=3.89in
+  Shape: AutoShape 5, Type: AUTO_SHAPE (1)
+    Position: left=2.15in, top=2.08in, w=0.97in, h=0.97in
+  Shape: Picture 6, Type: PICTURE (13)
+    Position: left=2.36in, top=2.29in, w=0.56in, h=0.56in
+  Shape: AutoShape 7, Type: AUTO_SHAPE (1)
+    Position: left=0.97in, top=1.94in, w=0.83in, h=0.42in
+    TEXT: 01 [size=304800, bold=True]
+  Shape: AutoShape 8, Type: AUTO_SHAPE (1)
+    Position: left=0.97in, top=3.19in, w=3.33in, h=0.42in
+    TEXT: 行业痛点分析 [size=254000, bold=True]
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=1.04in, top=3.75in, w=3.19in, h=1.67in
+    TEXT: 目前校内交易方式（如QQ群、校园墙）存在信息不对等、交易效率低等弊端。现存平台用户信用较低、商品价格评定机制不完善。 [size=177800, bold=False]
+  Shape: AutoShape 10, Type: AUTO_SHAPE (1)
+    Position: left=4.86in, top=1.81in, w=3.61in, h=3.89in
+  Shape: AutoShape 11, Type: AUTO_SHAPE (1)
+    Position: left=6.18in, top=2.08in, w=0.97in, h=0.97in
+  Shape: Picture 12, Type: PICTURE (13)
+    Position: left=6.39in, top=2.29in, w=0.56in, h=0.56in
+  Shape: AutoShape 13, Type: AUTO_SHAPE (1)
+    Position: left=5.00in, top=1.94in, w=0.83in, h=0.42in
+    TEXT: 02 [size=304800, bold=True]
+  Shape: AutoShape 14, Type: AUTO_SHAPE (1)
+    Position: left=5.00in, top=3.19in, w=3.33in, h=0.42in
+    TEXT: 现实需求分析 [size=254000, bold=True]
+  Shape: AutoShape 15, Type: AUTO_SHAPE (1)
+    Position: left=5.07in, top=3.75in, w=3.19in, h=1.67in
+    TEXT: 随着经济水平提高，大学生购买力增强，闲置物品增多，对高效、便捷的二手物品交易平台的需求日益迫切。 [size=177800, bold=False]
+  Shape: AutoShape 16, Type: AUTO_SHAPE (1)
+    Position: left=8.89in, top=1.81in, w=3.61in, h=3.89in
+  Shape: AutoShape 17, Type: AUTO_SHAPE (1)
+    Position: left=10.21in, top=2.08in, w=0.97in, h=0.97in
+  Shape: Picture 18, Type: PICTURE (13)
+    Position: left=10.42in, top=2.29in, w=0.56in, h=0.56in
+  Shape: AutoShape 19, Type: AUTO_SHAPE (1)
+    Position: left=9.03in, top=1.94in, w=0.83in, h=0.42in
+    TEXT: 03 [size=304800, bold=True]
+  Shape: AutoShape 20, Type: AUTO_SHAPE (1)
+    Position: left=9.03in, top=3.19in, w=3.33in, h=0.42in
+    TEXT: 项目价值体现 [size=254000, bold=True]
+  Shape: AutoShape 21, Type: AUTO_SHAPE (1)
+    Position: left=9.10in, top=3.75in, w=3.19in, h=1.67in
+    TEXT: 建立信息透明、交易便捷、安全性强的平台，有效帮助大学生进行资源交换，出售闲置，购买所需，实现资源循环利用。 [size=177800, bold=False]
+  Shape: AutoShape 22, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=5.97in, w=11.67in, h=0.83in
+  Shape: AutoShape 23, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=6.11in, w=11.11in, h=0.56in
+    TEXT: 核心目标：通过技术手段解决校园交易信任难题，构建高效、安全的校园二手生态闭环。 [size=203200, bold=True]
+
+=== Slide 5 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.11in, w=2.93in, h=0.56in
+    TEXT: 为何选择此题 [size=406400, bold=True]
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=2.08in, w=5.56in, h=1.81in
+  Shape: Picture 4, Type: PICTURE (13)
+    Position: left=1.11in, top=2.36in, w=0.44in, h=0.44in
+  Shape: AutoShape 5, Type: AUTO_SHAPE (1)
+    Position: left=1.74in, top=2.29in, w=4.38in, h=0.42in
+    TEXT: 01 提升交易效率 [size=228600, bold=True]
+  Shape: AutoShape 6, Type: AUTO_SHAPE (1)
+    Position: left=1.74in, top=2.75in, w=4.38in, h=0.97in
+    TEXT: 系统将商品发布、求购、购买与支付全流程在线化，比传统的线下市场或QQ群交易更加便捷和高效。 [size=177800, bold=False]
+  Shape: AutoShape 7, Type: AUTO_SHAPE (1)
+    Position: left=6.94in, top=2.08in, w=5.56in, h=1.81in
+  Shape: Picture 8, Type: PICTURE (13)
+    Position: left=7.22in, top=2.36in, w=0.44in, h=0.44in
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=7.85in, top=2.29in, w=4.38in, h=0.42in
+    TEXT: 02 优化信息匹配 [size=228600, bold=True]
+  Shape: AutoShape 10, Type: AUTO_SHAPE (1)
+    Position: left=7.85in, top=2.75in, w=4.38in, h=0.97in
+    TEXT: 解决信息不对称问题，卖家可以长时间曝光商品，买家也可通过求购专区寻找所需物品。 [size=177800, bold=False]
+  Shape: AutoShape 11, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=4.17in, w=5.56in, h=1.81in
+  Shape: Picture 12, Type: PICTURE (13)
+    Position: left=1.11in, top=4.44in, w=0.44in, h=0.44in
+  Shape: AutoShape 13, Type: AUTO_SHAPE (1)
+    Position: left=1.74in, top=4.38in, w=4.38in, h=0.42in
+    TEXT: 03 促进资源循环 [size=228600, bold=True]
+  Shape: AutoShape 14, Type: AUTO_SHAPE (1)
+    Position: left=1.74in, top=4.83in, w=4.38in, h=0.97in
+    TEXT: 拉动校内经济流通，促进资源的共享和循环利用，符合“节能减排”的可持续发展理念。 [size=177800, bold=False]
+  Shape: AutoShape 15, Type: AUTO_SHAPE (1)
+    Position: left=6.94in, top=4.17in, w=5.56in, h=1.81in
+  Shape: Picture 16, Type: PICTURE (13)
+    Position: left=7.22in, top=4.44in, w=0.44in, h=0.44in
+  Shape: AutoShape 17, Type: AUTO_SHAPE (1)
+    Position: left=7.85in, top=4.38in, w=4.38in, h=0.42in
+    TEXT: 04 提升管理能力 [size=228600, bold=True]
+  Shape: AutoShape 18, Type: AUTO_SHAPE (1)
+    Position: left=7.85in, top=4.83in, w=4.38in, h=0.97in
+    TEXT: 让大学生在买卖闲置物品的过程中，学会如何管理自己的资产，培养交易技巧。 [size=177800, bold=False]
+
+=== Slide 6 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=0.00in, w=13.33in, h=7.50in
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=0.00in, w=13.33in, h=0.06in
+  Shape: AutoShape 4, Type: AUTO_SHAPE (1)
+    Position: left=4.10in, top=1.39in, w=5.13in, h=0.83in
+    TEXT: 02 数据库设计核心 [size=609600, bold=True]
+  Shape: AutoShape 5, Type: AUTO_SHAPE (1)
+    Position: left=6.25in, top=2.36in, w=0.83in, h=0.06in
+  Shape: AutoShape 6, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=2.78in, w=11.11in, h=1.11in
+    TEXT: 介绍数据库设计的理论基础，详细定义系统中的核心实体、实体间关系，并明确主键与外键的设定原则，构建系统数据模型的理论框架。 [size=228600, bold=False]
+  Shape: AutoShape 7, Type: AUTO_SHAPE (1)
+    Position: left=1.67in, top=4.44in, w=2.50in, h=1.39in
+  Shape: Picture 8, Type: PICTURE (13)
+    Position: left=2.69in, top=4.65in, w=0.44in, h=0.44in
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=1.67in, top=5.21in, w=2.50in, h=0.42in
+    TEXT: 理论基础 [size=203200, bold=True]
+  Shape: AutoShape 10, Type: AUTO_SHAPE (1)
+    Position: left=4.44in, top=4.44in, w=2.50in, h=1.39in
+  Shape: Picture 11, Type: PICTURE (13)
+    Position: left=5.47in, top=4.65in, w=0.44in, h=0.44in
+  Shape: AutoShape 12, Type: AUTO_SHAPE (1)
+    Position: left=4.44in, top=5.21in, w=2.50in, h=0.42in
+    TEXT: 核心实体 [size=203200, bold=True]
+  Shape: AutoShape 13, Type: AUTO_SHAPE (1)
+    Position: left=7.22in, top=4.44in, w=2.50in, h=1.39in
+  Shape: Picture 14, Type: PICTURE (13)
+    Position: left=8.25in, top=4.65in, w=0.44in, h=0.44in
+  Shape: AutoShape 15, Type: AUTO_SHAPE (1)
+    Position: left=7.22in, top=5.21in, w=2.50in, h=0.42in
+    TEXT: 关系定义 [size=203200, bold=True]
+  Shape: AutoShape 16, Type: AUTO_SHAPE (1)
+    Position: left=10.00in, top=4.44in, w=2.50in, h=1.39in
+  Shape: Picture 17, Type: PICTURE (13)
+    Position: left=11.03in, top=4.65in, w=0.44in, h=0.44in
+  Shape: AutoShape 18, Type: AUTO_SHAPE (1)
+    Position: left=10.00in, top=5.21in, w=2.50in, h=0.42in
+    TEXT: 键设定原则 [size=203200, bold=True]
+
+=== Slide 7 () ===
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=0.00in, w=13.33in, h=0.06in
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=2.26in, top=1.11in, w=8.81in, h=0.83in
+    TEXT: 需求分析与实体推导 [size=609600, bold=True]
+  Shape: AutoShape 4, Type: AUTO_SHAPE (1)
+    Position: left=6.25in, top=2.08in, w=0.83in, h=0.06in
+  Shape: AutoShape 5, Type: AUTO_SHAPE (1)
+    Position: left=1.39in, top=2.50in, w=10.56in, h=1.11in
+    TEXT: 从学生、卖家、平台三个核心角色的视角出发，深入分析其核心需求，以此为基础，推导出系统所需的核心实体与数据模型，确保设计方案的合理性与实用性。 [size=228600, bold=False]
+  Shape: AutoShape 6, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=4.03in, w=3.33in, h=1.67in
+  Shape: Picture 7, Type: PICTURE (13)
+    Position: left=2.50in, top=4.31in, w=0.56in, h=0.56in
+  Shape: AutoShape 8, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=5.00in, w=3.33in, h=0.42in
+    TEXT: 学生 (买家) [size=228600, bold=True]
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=5.00in, top=4.03in, w=3.33in, h=1.67in
+  Shape: Picture 10, Type: PICTURE (13)
+    Position: left=6.39in, top=4.31in, w=0.56in, h=0.56in
+  Shape: AutoShape 11, Type: AUTO_SHAPE (1)
+    Position: left=5.00in, top=5.00in, w=3.33in, h=0.42in
+    TEXT: 卖家 [size=228600, bold=True]
+  Shape: AutoShape 12, Type: AUTO_SHAPE (1)
+    Position: left=8.89in, top=4.03in, w=3.33in, h=1.67in
+  Shape: Picture 13, Type: PICTURE (13)
+    Position: left=10.28in, top=4.31in, w=0.56in, h=0.56in
+  Shape: AutoShape 14, Type: AUTO_SHAPE (1)
+    Position: left=8.89in, top=5.00in, w=3.33in, h=0.42in
+    TEXT: 平台 [size=228600, bold=True]
+
+=== Slide 8 () ===
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=0.00in, w=13.33in, h=0.06in
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=0.83in, w=5.86in, h=0.56in
+    TEXT: 多角色视角下的需求分析 [size=406400, bold=True]
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.67in, w=3.61in, h=3.89in
+  Shape: Picture 4, Type: PICTURE (13)
+    Position: left=2.29in, top=1.88in, w=0.67in, h=0.67in
+  Shape: AutoShape 5, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=2.64in, w=3.61in, h=0.42in
+    TEXT: 学生（买家）视角 [size=254000, bold=True]
+  Shape: AutoShape 6, Type: AUTO_SHAPE (1)
+    Position: left=1.04in, top=3.12in, w=3.19in, h=2.22in
+    TEXT: 便捷查找：快速找到物美价廉的闲置物品 [size=177800, bold=True]
+    TEXT: 信息透明：了解商品真实状况与卖家信誉 [size=177800, bold=True]
+    TEXT: 安全交易：支付安全，交易过程有保障 [size=177800, bold=True]
+    TEXT: 互动咨询：方便地与卖家沟通商品细节 [size=177800, bold=True]
+  Shape: AutoShape 7, Type: AUTO_SHAPE (1)
+    Position: left=4.86in, top=1.67in, w=3.61in, h=3.89in
+  Shape: Picture 8, Type: PICTURE (13)
+    Position: left=6.32in, top=1.88in, w=0.67in, h=0.67in
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=4.86in, top=2.64in, w=3.61in, h=0.42in
+    TEXT: 卖家视角 [size=254000, bold=True]
+  Shape: AutoShape 10, Type: AUTO_SHAPE (1)
+    Position: left=5.07in, top=3.12in, w=3.19in, h=2.22in
+    TEXT: 快速发布：便捷地上传商品信息和图片 [size=177800, bold=True]
+    TEXT: 高效曝光：商品能被更多潜在买家看到 [size=177800, bold=True]
+    TEXT: 交易管理：方便地处理订单、发货和收款 [size=177800, bold=True]
+    TEXT: 信用积累：建立个人信誉，促进后续交易 [size=177800, bold=True]
+  Shape: AutoShape 11, Type: AUTO_SHAPE (1)
+    Position: left=8.89in, top=1.67in, w=3.61in, h=3.89in
+  Shape: Picture 12, Type: PICTURE (13)
+    Position: left=10.35in, top=1.88in, w=0.67in, h=0.67in
+  Shape: AutoShape 13, Type: AUTO_SHAPE (1)
+    Position: left=8.89in, top=2.64in, w=3.61in, h=0.42in
+    TEXT: 平台视角 [size=254000, bold=True]
+  Shape: AutoShape 14, Type: AUTO_SHAPE (1)
+    Position: left=9.10in, top=3.12in, w=3.19in, h=2.22in
+    TEXT: 用户管理：维护用户信息，确保真实性 [size=177800, bold=True]
+    TEXT: 商品监管：审核商品信息，杜绝违规内容 [size=177800, bold=True]
+    TEXT: 交易保障：提供支付渠道，处理交易纠纷 [size=177800, bold=True]
+    TEXT: 数据分析：了解用户行为，优化平台功能 [size=177800, bold=True]
+  Shape: Connector 15, Type: LINE (9)
+    Position: left=0.83in, top=5.97in, w=11.67in, h=0.01in
+  Shape: AutoShape 16, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=6.11in, w=11.67in, h=0.56in
+    TEXT: 通过对买家、卖家和平台三方需求的深度洞察，构建安全、高效、透明的校园二手交易生态系统。 [size=177800, bold=False]
+
+=== Slide 9 () ===
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=0.00in, w=13.33in, h=0.06in
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=0.62in, w=5.86in, h=0.56in
+    TEXT: 从需求到实体的推导过程 [size=406400, bold=True]
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.60in, w=5.62in, h=2.50in
+  Shape: Picture 4, Type: PICTURE (13)
+    Position: left=1.11in, top=1.88in, w=0.44in, h=0.44in
+  Shape: AutoShape 5, Type: AUTO_SHAPE (1)
+    Position: left=1.67in, top=1.82in, w=4.44in, h=0.42in
+    TEXT: 用户管理需求 [size=228600, bold=True]
+  Shape: Picture 6, Type: PICTURE (13)
+    Position: left=3.43in, top=2.29in, w=0.28in, h=0.28in
+  Shape: AutoShape 7, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=2.71in, w=5.07in, h=0.42in
+    TEXT: 用户实体 (User) [size=203200, bold=True]
+  Shape: AutoShape 8, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=3.12in, w=5.07in, h=0.83in
+    TEXT: 为满足注册、登录和信息管理需求，抽象出用户实体。包含账号、密码、姓名、联系方式等核心属性。 [size=165100, bold=False]
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=6.88in, top=1.60in, w=5.62in, h=2.50in
+  Shape: Picture 10, Type: PICTURE (13)
+    Position: left=7.15in, top=1.88in, w=0.44in, h=0.44in
+  Shape: AutoShape 11, Type: AUTO_SHAPE (1)
+    Position: left=7.71in, top=1.82in, w=4.44in, h=0.42in
+    TEXT: 商品发布与浏览需求 [size=228600, bold=True]
+  Shape: Picture 12, Type: PICTURE (13)
+    Position: left=9.47in, top=2.29in, w=0.28in, h=0.28in
+  Shape: AutoShape 13, Type: AUTO_SHAPE (1)
+    Position: left=7.15in, top=2.71in, w=5.07in, h=0.42in
+    TEXT: 商品信息实体 (Goods) [size=203200, bold=True]
+  Shape: AutoShape 14, Type: AUTO_SHAPE (1)
+    Position: left=7.15in, top=3.12in, w=5.07in, h=0.83in
+    TEXT: 为支持卖家发布和买家浏览，抽象出商品信息实体。包含名称、价格、详情描述、图片等属性。 [size=165100, bold=False]
+  Shape: AutoShape 15, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=4.38in, w=5.62in, h=2.50in
+  Shape: Picture 16, Type: PICTURE (13)
+    Position: left=1.11in, top=4.65in, w=0.44in, h=0.44in
+  Shape: AutoShape 17, Type: AUTO_SHAPE (1)
+    Position: left=1.67in, top=4.60in, w=4.44in, h=0.42in
+    TEXT: 交易与订单管理需求 [size=228600, bold=True]
+  Shape: Picture 18, Type: PICTURE (13)
+    Position: left=3.43in, top=5.07in, w=0.28in, h=0.28in
+  Shape: AutoShape 19, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=5.49in, w=5.07in, h=0.42in
+    TEXT: 订单实体 (Order) [size=203200, bold=True]
+  Shape: AutoShape 20, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=5.90in, w=5.07in, h=0.83in
+    TEXT: 为记录买卖双方交易行为，抽象出订单实体。包含关联商品、买卖双方信息、成交价格及状态等。 [size=165100, bold=False]
+  Shape: AutoShape 21, Type: AUTO_SHAPE (1)
+    Position: left=6.88in, top=4.38in, w=5.62in, h=2.50in
+  Shape: Picture 22, Type: PICTURE (13)
+    Position: left=7.15in, top=4.65in, w=0.44in, h=0.44in
+  Shape: AutoShape 23, Type: AUTO_SHAPE (1)
+    Position: left=7.71in, top=4.60in, w=4.44in, h=0.42in
+    TEXT: 求购与互动需求 [size=228600, bold=True]
+  Shape: Picture 24, Type: PICTURE (13)
+    Position: left=9.47in, top=5.07in, w=0.28in, h=0.28in
+  Shape: AutoShape 25, Type: AUTO_SHAPE (1)
+    Position: left=7.15in, top=5.49in, w=5.07in, h=0.42in
+    TEXT: 求购信息 (Purchase) & 评论 (Comment) [size=203200, bold=True]
+  Shape: AutoShape 26, Type: AUTO_SHAPE (1)
+    Position: left=7.15in, top=5.90in, w=5.07in, h=0.83in
+    TEXT: 为满足用户发布求购信息和互动评论需求，分别抽象出求购信息实体和评论实体。 [size=165100, bold=False]
+
+=== Slide 10 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=0.56in, w=11.67in, h=0.56in
+    TEXT: 核心实体定义：系统关键数据对象 [size=406400, bold=True]
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.53in, w=3.69in, h=2.50in
+  Shape: Picture 4, Type: PICTURE (13)
+    Position: left=1.11in, top=1.81in, w=0.44in, h=0.44in
+  Shape: AutoShape 5, Type: AUTO_SHAPE (1)
+    Position: left=1.67in, top=1.75in, w=2.64in, h=0.42in
+    TEXT: 用户 (User) [size=254000, bold=True]
+  Shape: AutoShape 6, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=2.29in, w=3.14in, h=1.53in
+    TEXT: 唯一标识：id (主键) [size=177800, bold=True]
+    TEXT: 主要属性： [size=177800, bold=True]
+    TEXT: 账号、密码、姓名、身份、手机号、邮箱等基本信息。 [size=165100, bold=False]
+  Shape: AutoShape 7, Type: AUTO_SHAPE (1)
+    Position: left=4.81in, top=1.53in, w=3.69in, h=2.50in
+  Shape: Picture 8, Type: PICTURE (13)
+    Position: left=5.08in, top=1.81in, w=0.44in, h=0.44in
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=5.64in, top=1.75in, w=2.64in, h=0.42in
+    TEXT: 商品信息 (Goods) [size=254000, bold=True]
+  Shape: AutoShape 10, Type: AUTO_SHAPE (1)
+    Position: left=5.08in, top=2.29in, w=3.14in, h=1.53in
+    TEXT: 唯一标识：id (主键) [size=177800, bold=True]
+    TEXT: 主要属性： [size=177800, bold=True]
+    TEXT: 名称、价格、详情、上架日期、种类、所属用户id等。 [size=165100, bold=False]
+  Shape: AutoShape 11, Type: AUTO_SHAPE (1)
+    Position: left=8.78in, top=1.53in, w=3.69in, h=2.50in
+  Shape: Picture 12, Type: PICTURE (13)
+    Position: left=9.06in, top=1.81in, w=0.44in, h=0.44in
+  Shape: AutoShape 13, Type: AUTO_SHAPE (1)
+    Position: left=9.61in, top=1.75in, w=2.64in, h=0.42in
+    TEXT: 订单 (Order) [size=254000, bold=True]
+  Shape: AutoShape 14, Type: AUTO_SHAPE (1)
+    Position: left=9.06in, top=2.29in, w=3.14in, h=1.53in
+    TEXT: 唯一标识：id (主键) [size=177800, bold=True]
+    TEXT: 主要属性： [size=177800, bold=True]
+    TEXT: 商品名称、订单编号、总价、支付时间、收货人、卖家id等。 [size=165100, bold=False]
+  Shape: AutoShape 15, Type: AUTO_SHAPE (1)
+    Position: left=2.82in, top=4.31in, w=3.69in, h=2.50in
+  Shape: Picture 16, Type: PICTURE (13)
+    Position: left=3.10in, top=4.58in, w=0.44in, h=0.44in
+  Shape: AutoShape 17, Type: AUTO_SHAPE (1)
+    Position: left=3.65in, top=4.53in, w=2.64in, h=0.42in
+    TEXT: 求购信息 (Purchase) [size=254000, bold=True]
+  Shape: AutoShape 18, Type: AUTO_SHAPE (1)
+    Position: left=3.10in, top=5.07in, w=3.14in, h=1.53in
+    TEXT: 唯一标识：id (主键) [size=177800, bold=True]
+    TEXT: 主要属性： [size=177800, bold=True]
+    TEXT: 用户姓名、收货地址、电话号码、发布求购的用户id等。 [size=165100, bold=False]
+  Shape: AutoShape 19, Type: AUTO_SHAPE (1)
+    Position: left=6.81in, top=4.31in, w=3.69in, h=2.50in
+  Shape: Picture 20, Type: PICTURE (13)
+    Position: left=7.08in, top=4.58in, w=0.44in, h=0.44in
+  Shape: AutoShape 21, Type: AUTO_SHAPE (1)
+    Position: left=7.64in, top=4.53in, w=2.64in, h=0.42in
+    TEXT: 评论记录 (Comment) [size=254000, bold=True]
+  Shape: AutoShape 22, Type: AUTO_SHAPE (1)
+    Position: left=7.08in, top=5.07in, w=3.14in, h=1.53in
+    TEXT: 唯一标识：id (主键) [size=177800, bold=True]
+    TEXT: 主要属性： [size=177800, bold=True]
+    TEXT: 评论内容、评论人、父级id、评论时间、关联id等。 [size=165100, bold=False]
+
+=== Slide 11 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=0.69in, w=11.67in, h=0.56in
+    TEXT: 实体关系梳理 [size=406400, bold=True]
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.39in, w=0.83in, h=0.06in
+  Shape: AutoShape 4, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.81in, w=5.62in, h=2.08in
+  Shape: Picture 5, Type: PICTURE (13)
+    Position: left=1.11in, top=2.08in, w=0.44in, h=0.44in
+  Shape: AutoShape 6, Type: AUTO_SHAPE (1)
+    Position: left=1.74in, top=2.01in, w=4.44in, h=0.42in
+    TEXT: 发布关系 (一对多) [size=254000, bold=True]
+  Shape: AutoShape 7, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=2.64in, w=5.07in, h=0.97in
+    TEXT: 用户与商品/求购信息之间存在发布关系。一个用户可以发布多条商品信息或求购信息，建立基础的信息供给。 [size=177800, bold=False]
+  Shape: AutoShape 8, Type: AUTO_SHAPE (1)
+    Position: left=6.88in, top=1.81in, w=5.62in, h=2.08in
+  Shape: Picture 9, Type: PICTURE (13)
+    Position: left=7.15in, top=2.08in, w=0.44in, h=0.44in
+  Shape: AutoShape 10, Type: AUTO_SHAPE (1)
+    Position: left=7.78in, top=2.01in, w=4.44in, h=0.42in
+    TEXT: 交易关系 (多对多转化) [size=254000, bold=True]
+  Shape: AutoShape 11, Type: AUTO_SHAPE (1)
+    Position: left=7.15in, top=2.64in, w=5.07in, h=0.97in
+    TEXT: 用户通过购买商品形成交易，订单模型将商品信息、买家信息以及支付信息关联起来，完成价值交换闭环。 [size=177800, bold=False]
+  Shape: AutoShape 12, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=4.17in, w=5.62in, h=2.08in
+  Shape: Picture 13, Type: PICTURE (13)
+    Position: left=1.11in, top=4.44in, w=0.44in, h=0.44in
+  Shape: AutoShape 14, Type: AUTO_SHAPE (1)
+    Position: left=1.74in, top=4.38in, w=4.44in, h=0.42in
+    TEXT: 互动关系 (一对多) [size=254000, bold=True]
+  Shape: AutoShape 15, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=5.00in, w=5.07in, h=0.97in
+    TEXT: 用户在商品详情页或求购专区可进行评论，一条商品或求购记录下可包含多条用户的评论记录，促进社区活跃。 [size=177800, bold=False]
+  Shape: AutoShape 16, Type: AUTO_SHAPE (1)
+    Position: left=6.88in, top=4.17in, w=5.62in, h=2.08in
+  Shape: Picture 17, Type: PICTURE (13)
+    Position: left=7.15in, top=4.44in, w=0.44in, h=0.44in
+  Shape: AutoShape 18, Type: AUTO_SHAPE (1)
+    Position: left=7.78in, top=4.38in, w=4.44in, h=0.42in
+    TEXT: 收藏关系 (多对多) [size=254000, bold=True]
+  Shape: AutoShape 19, Type: AUTO_SHAPE (1)
+    Position: left=7.15in, top=5.00in, w=5.07in, h=0.97in
+    TEXT: 用户可以收藏商品，收藏记录通过模块属性记录来源，通过关联id确定具体收藏的物品，便于用户快速回访。 [size=177800, bold=False]
+
+=== Slide 12 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.11in, w=11.67in, h=0.56in
+    TEXT: 主键外键设计 [size=406400, bold=True]
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.81in, w=11.67in, h=0.03in
+  Shape: AutoShape 4, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=2.22in, w=5.56in, h=3.33in
+  Shape: Picture 5, Type: PICTURE (13)
+    Position: left=1.17in, top=2.56in, w=0.44in, h=0.44in
+  Shape: AutoShape 6, Type: AUTO_SHAPE (1)
+    Position: left=1.72in, top=2.50in, w=4.39in, h=0.50in
+    TEXT: 主键设计原则 [size=254000, bold=True]
+  Shape: AutoShape 7, Type: AUTO_SHAPE (1)
+    Position: left=1.17in, top=3.11in, w=4.89in, h=2.08in
+    TEXT: 核心原则：选择具有唯一性、稳定性且业务无关的字段。 [size=190500, bold=False]
+    TEXT: 设计示例： [size=190500, bold=False]
+    TEXT: 统一采用id (int类型)作为各表主键 [size=177800, bold=False]
+    TEXT: 用于唯一标识记录，确保数据独立性 [size=177800, bold=False]
+  Shape: AutoShape 8, Type: AUTO_SHAPE (1)
+    Position: left=6.94in, top=2.22in, w=5.56in, h=3.33in
+  Shape: Picture 9, Type: PICTURE (13)
+    Position: left=7.28in, top=2.56in, w=0.44in, h=0.44in
+  Shape: AutoShape 10, Type: AUTO_SHAPE (1)
+    Position: left=7.83in, top=2.50in, w=4.39in, h=0.50in
+    TEXT: 外键设计原则 [size=254000, bold=True]
+  Shape: AutoShape 11, Type: AUTO_SHAPE (1)
+    Position: left=7.28in, top=3.11in, w=4.89in, h=2.08in
+    TEXT: 核心原则：建立实体间关系，维护数据一致性。 [size=190500, bold=False]
+    TEXT: 设计示例： [size=190500, bold=False]
+    TEXT: 订单表：sale_id, user_id参照用户表主键 [size=177800, bold=False]
+    TEXT: 商品表：user_id参照用户表主键 [size=177800, bold=False]
+  Shape: AutoShape 12, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=5.83in, w=11.67in, h=0.83in
+  Shape: Picture 13, Type: PICTURE (13)
+    Position: left=1.11in, top=6.03in, w=0.39in, h=0.39in
+  Shape: AutoShape 14, Type: AUTO_SHAPE (1)
+    Position: left=1.67in, top=5.97in, w=10.56in, h=0.56in
+    TEXT: 设计目标：通过合理的主键与外键设计，确保系统数据的唯一性、完整性与关联一致性。 [size=203200, bold=True]
+
+=== Slide 13 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=0.00in, w=13.33in, h=0.06in
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=3.74in, top=1.11in, w=5.86in, h=0.83in
+    TEXT: 03 系统ER图展示 [size=609600, bold=True]
+  Shape: AutoShape 4, Type: AUTO_SHAPE (1)
+    Position: left=6.25in, top=2.08in, w=0.83in, h=0.06in
+  Shape: Picture 5, Type: PICTURE (13)
+    Position: left=6.22in, top=2.64in, w=0.89in, h=0.89in
+  Shape: AutoShape 6, Type: AUTO_SHAPE (1)
+    Position: left=1.67in, top=3.89in, w=10.00in, h=1.39in
+    TEXT: 综合前述实体与关系分析，以实体-关系图（ER图）的形式， [size=228600, bold=False]
+    TEXT: 直观、系统地呈现校园二手交易系统的整体数据模型架构。 [size=228600, bold=False]
+  Shape: AutoShape 7, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=6.67in, w=13.33in, h=0.42in
+    TEXT: DATA MODEL ARCHITECTURE & RELATIONSHIP ANALYSIS [size=152400, bold=False]
+  Shape: AutoShape 8, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=2.94in, w=0.03in, h=0.56in
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=12.47in, top=2.94in, w=0.03in, h=0.56in
+
+=== Slide 14 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=0.00in, w=13.33in, h=0.06in
+  Shape: AutoShape 7, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=6.67in, w=13.33in, h=0.42in
+    TEXT: DATA MODEL ARCHITECTURE & RELATIONSHIP ANALYSIS [size=152400, bold=False]
+  Shape: AutoShape 8, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=2.94in, w=0.03in, h=0.56in
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=12.47in, top=2.94in, w=0.03in, h=0.56in
+  Shape: Picture 2, Type: PICTURE (13)
+    Position: left=1.81in, top=0.47in, w=9.83in, h=6.07in
+
+=== Slide 15 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.11in, w=6.83in, h=0.56in
+    TEXT: 深入解读核心业务实体关联 [size=406400, bold=True]
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.81in, w=0.83in, h=0.06in
+  Shape: AutoShape 4, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=2.22in, w=5.56in, h=2.78in
+  Shape: AutoShape 5, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=2.43in, w=5.00in, h=0.42in
+    TEXT: 01 用户-商品-订单 [size=254000, bold=True]
+  Shape: AutoShape 6, Type: AUTO_SHAPE (1)
+    Position: left=1.11in, top=2.92in, w=5.00in, h=1.39in
+    TEXT: 买家用户购买卖家发布的商品，生成订单记录。通过订单表中的卖家id和买家id，实现卖家查看售出订单以及买家查看购买订单的业务闭环。 [size=177800, bold=False]
+  Shape: Picture 7, Type: PICTURE (13)
+    Position: left=5.42in, top=2.43in, w=0.67in, h=0.67in
+  Shape: AutoShape 8, Type: AUTO_SHAPE (1)
+    Position: left=6.94in, top=2.22in, w=5.56in, h=2.78in
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=7.22in, top=2.43in, w=5.00in, h=0.42in
+    TEXT: 02 用户-互动-评论 [size=254000, bold=True]
+  Shape: AutoShape 10, Type: AUTO_SHAPE (1)
+    Position: left=7.22in, top=2.92in, w=5.00in, h=1.39in
+    TEXT: 用户对商品或求购信息发表评论，评论模型通过“pid”和“root_id”字段实现了树状评论结构的关联，使互动逻辑更加清晰。 [size=177800, bold=False]
+  Shape: Picture 11, Type: PICTURE (13)
+    Position: left=11.53in, top=2.43in, w=0.67in, h=0.67in
+  Shape: AutoShape 12, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=5.42in, w=11.67in, h=0.83in
+  Shape: Picture 13, Type: PICTURE (13)
+    Position: left=1.11in, top=5.62in, w=0.42in, h=0.42in
+  Shape: AutoShape 14, Type: AUTO_SHAPE (1)
+    Position: left=1.67in, top=5.58in, w=10.56in, h=0.50in
+    TEXT: 核心价值：通过实体间的关联设计，构建了完整的交易闭环与互动生态，提升了系统的业务流转效率。 [size=203200, bold=True]
+
+=== Slide 16 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=0.00in, w=13.33in, h=7.50in
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=0.00in, w=13.33in, h=0.06in
+  Shape: AutoShape 4, Type: AUTO_SHAPE (1)
+    Position: left=3.36in, top=1.67in, w=6.61in, h=0.83in
+    TEXT: 04 数据表结构展示 [size=609600, bold=True]
+  Shape: AutoShape 5, Type: AUTO_SHAPE (1)
+    Position: left=6.25in, top=2.64in, w=0.83in, h=0.06in
+  Shape: Picture 6, Type: PICTURE (13)
+    Position: left=6.22in, top=3.06in, w=0.89in, h=0.89in
+  Shape: AutoShape 7, Type: AUTO_SHAPE (1)
+    Position: left=1.39in, top=4.31in, w=10.56in, h=1.11in
+    TEXT: 将概念模型转化为物理模型，展示系统核心数据表的具体结构， [size=228600, bold=False]
+    TEXT: 包括字段名、数据类型等，呈现数据库的最终实现形式。 [size=228600, bold=False]
+  Shape: AutoShape 8, Type: AUTO_SHAPE (1)
+    Position: left=0.56in, top=6.67in, w=0.28in, h=0.28in
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=12.50in, top=6.67in, w=0.28in, h=0.28in
+
+=== Slide 17 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.11in, w=2.44in, h=0.56in
+    TEXT: 用户模型表 [size=406400, bold=True]
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.74in, w=0.83in, h=0.06in
+  Shape: AutoShape 4, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=2.01in, w=11.67in, h=0.42in
+    TEXT: 用于记录使用系统的普通用户和管理员的核心档案信息，是系统权限管理与身份认证的基础。 [size=203200, bold=False]
+  Shape: AutoShape 5, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=2.64in, w=11.67in, h=3.06in
+  Shape: Table 6, Type: TABLE (19)
+    Position: left=0.83in, top=2.64in, w=11.67in, h=3.06in
+    [TABLE 6x3]
+      Row 0: ['字段名', '数据类型', '作用说明']
+      Row 1: ['id', 'int (主键)', '用户唯一标识，自增主键，用于关联其他业务表']
+      Row 2: ['username', 'varchar', '用户登录账号，具有唯一性，用于系统登录验证']
+      Row 3: ['password', 'varchar', '用户登录密码，存储加密后的密文，确保账户安全']
+      Row 4: ['name', 'varchar', '用户真实姓名或昵称，用于界面展示和业务称呼']
+      Row 5: ['phone', 'varchar', '用户手机号码，用于短信验证、通知及找回密码']
+  Shape: AutoShape 7, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=5.97in, w=11.67in, h=0.83in
+  Shape: Picture 8, Type: PICTURE (13)
+    Position: left=1.11in, top=6.18in, w=0.42in, h=0.42in
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=1.67in, top=6.08in, w=10.56in, h=0.61in
+    TEXT: 该表作为系统的基础核心表，承载了所有用户的身份信息，是权限控制、数据隔离和个性化服务的基石。 [size=177800, bold=False]
+
+=== Slide 18 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=0.56in, w=3.42in, h=0.56in
+    TEXT: 商品信息模型表 [size=406400, bold=True]
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.18in, w=11.67in, h=0.03in
+  Shape: AutoShape 4, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.53in, w=11.67in, h=3.33in
+  Shape: Table 5, Type: TABLE (19)
+    Position: left=0.97in, top=1.67in, w=11.11in, h=2.83in
+    [TABLE 6x3]
+      Row 0: ['字段名', '数据类型', '作用说明']
+      Row 1: ['id', 'int (主键)', '商品唯一标识，自增ID']
+      Row 2: ['name', 'varchar', '商品名称，限制长度以确保索引效率']
+      Row 3: ['price', 'decimal', '商品价格，精确存储金额，避免浮点误差']
+      Row 4: ['content', 'text', '商品详细描述内容，支持大文本存储']
+      Row 5: ['user_id', 'int (外键)', '关联用户表主键，标识该商品的发布者']
+  Shape: AutoShape 6, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=5.14in, w=11.67in, h=1.39in
+  Shape: Picture 7, Type: PICTURE (13)
+    Position: left=1.11in, top=5.42in, w=0.56in, h=0.56in
+  Shape: AutoShape 8, Type: AUTO_SHAPE (1)
+    Position: left=1.81in, top=5.28in, w=10.42in, h=1.11in
+    TEXT: 核心关联逻辑 [size=203200, bold=True]
+    TEXT: 该表记录卖家发布的商品详细信息，通过user_id字段与用户表（User Table）建立一对多关系，实现数据的关联查询与权限控制。 [size=177800, bold=False]
+
+=== Slide 19 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=0.56in, w=3.42in, h=0.56in
+    TEXT: 订单信息模型表 [size=406400, bold=True]
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.25in, w=0.83in, h=0.06in
+  Shape: AutoShape 4, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=1.81in, w=11.66in, h=3.83in
+  Shape: Table 5, Type: TABLE (19)
+    Position: left=0.97in, top=1.94in, w=11.11in, h=3.74in
+    [TABLE 8x3]
+      Row 0: ['字段名', '数据类型', '作用说明']
+      Row 1: ['id', 'int (主键)', '订单唯一标识，自增ID']
+      Row 2: ['good_name', 'varchar', '商品名称，关联商品信息']
+      Row 3: ['order_no', 'varchar', '订单编号，唯一业务单号']
+      Row 4: ['total', 'decimal', '订单总金额，精确计算费用']
+      Row 5: ['user_id', 'int', '买家ID，关联用户信息表']
+      Row 6: ['sale_id', 'int', '卖家ID，关联商家信息表']
+      Row 7: ['status', 'tinyint', '订单状态（如：待支付、已发货、已完成）']
+  Shape: AutoShape 6, Type: AUTO_SHAPE (1)
+    Position: left=0.82in, top=5.74in, w=11.67in, h=1.39in
+  Shape: Picture 7, Type: PICTURE (13)
+    Position: left=1.10in, top=6.08in, w=0.56in, h=0.56in
+  Shape: AutoShape 8, Type: AUTO_SHAPE (1)
+    Position: left=1.80in, top=5.88in, w=10.42in, h=1.11in
+    TEXT: 核心作用： [size=228600, bold=True]
+    TEXT: 该表是交易系统的核心枢纽，通过关联买家（user_id）、卖家（sale_id）和商品信息，完整记录了每一笔交易的支付详情、物流状态及资金流向，确保交易链路的可追溯性与完整性。 [size=177800, bold=False]
+
+=== Slide 20 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=0.00in, w=13.33in, h=0.06in
+  Shape: AutoShape 8, Type: AUTO_SHAPE (1)
+    Position: left=0.83in, top=2.94in, w=0.03in, h=0.56in
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=12.47in, top=2.94in, w=0.03in, h=0.56in
+  Shape: 图片 10, Type: PICTURE (13)
+    Position: left=0.88in, top=0.99in, w=11.61in, h=5.83in
+  Shape: 文本框 3, Type: TEXT_BOX (17)
+    Position: left=3.35in, top=0.54in, w=6.67in, h=0.37in
+    TEXT: 表 [size=177800, bold=True]
+
+=== Slide 21 () ===
+  Shape: AutoShape 2, Type: AUTO_SHAPE (1)
+    Position: left=-1.39in, top=-1.39in, w=5.56in, h=5.56in
+  Shape: AutoShape 3, Type: AUTO_SHAPE (1)
+    Position: left=10.56in, top=4.72in, w=4.17in, h=4.17in
+  Shape: Picture 4, Type: PICTURE (13)
+    Position: left=6.22in, top=1.39in, w=0.89in, h=0.89in
+  Shape: AutoShape 5, Type: AUTO_SHAPE (1)
+    Position: left=5.19in, top=2.50in, w=2.93in, h=0.83in
+    TEXT: 谢谢观看 [size=609600, bold=True]
+  Shape: Connector 6, Type: LINE (9)
+    Position: left=5.97in, top=3.53in, w=1.39in, h=0.01in
+  Shape: AutoShape 7, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=3.89in, w=13.33in, h=0.42in
+    TEXT: 2026.3.17 [size=228600, bold=False]
+  Shape: AutoShape 8, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=4.44in, w=13.33in, h=0.42in
+    TEXT: 汇报人：赵恢栋，常修源，黄鑫，魏奕晨，唐雪茹 [size=228600, bold=False]
+  Shape: AutoShape 9, Type: AUTO_SHAPE (1)
+    Position: left=0.00in, top=6.67in, w=13.33in, h=0.28in
+    TEXT: 感谢您的聆听，欢迎批评指正 [size=152400, bold=False]
+

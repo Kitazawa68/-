@@ -1,0 +1,241 @@
+Slide width: 17475200, height: 9753600
+Total slides: 17
+
+=== Slide 1 (Title) ===
+  [IMAGE: picture 4]
+  TEXT: 汽车租赁系统：
+  TEXT: 业务解读
+  TEXT: 核心架构
+  TEXT: 图表分析
+  TEXT: 数据洞察
+  TEXT: SQL 核心查询
+  TEXT: 扩展推进
+  TEXT: 5      味
+  TEXT: 系统设计与技术汇报
+  TEXT: 小组成员：李子航  徐倩  张诗雨  林晓晨
+  TEXT: 汇报日期：2026年4月2日
+
+=== Slide 2 (Title) ===
+  [IMAGE: picture 10]
+  TEXT: 分析对象
+  TEXT: 人 → 客户：产生租赁需求、支付租金的主体。需要严格、把控身份与信用（实名认证、驾照校验）。                                  经办人：门店工作人员，负责调度、交接车辆、验车核算。
+  TEXT: 物 → 车辆 & 车型 ：系统的核心资产。重点追踪车辆状态（可租、已租、维修）、租金变动与类别归属。
+  TEXT: 事 → 租赁履约：绑定人、车、操作员的业务枢纽，记录时间与资金。状态结算：完结动作的记录，核算行驶里程与车损罚款形成业务闭环。
+  TEXT: 设计理念
+  TEXT: 数据一致性：强约束与关系隔离
+  TEXT: 业务闭环：从起租到核算的完整生命周期管理
+  TEXT: 高扩展性：预留空值与边缘状态处理空间
+  TEXT: 用户群体
+  TEXT: 终端消费者：快速检索可用车辆，查看订单状态
+  TEXT: 门店员工：处理租赁、录入车损与里程
+  TEXT: 管理决策者：监控资产健康度、分析收益转化
+  TEXT: 系统目标
+  TEXT: 资产透明化：精准追踪每一辆车“在哪里、被谁租、什么状态”。
+  TEXT: 业务解读：
+  TEXT: 业务自动化：摒弃手工记账，实现计费、防损、风控的系统化核算。
+  TEXT: 决策数据化：通过数据沉淀，分析热门车型、高价值客户与业务员绩效，辅助商业决策。
+
+=== Slide 3 (Title) ===
+  [IMAGE: picture 20]
+  TEXT: 关键流转节点：
+  TEXT: ·触发器：交车与验车动作
+  TEXT: ·数据闭环：ReturnRecord 的生成标志着订单状态的完结与车辆资产的释放，形成完整的业务循环。
+  TEXT: (用户还车)
+  TEXT: (门店交车)
+  TEXT: [1-已支付]
+  TEXT: 业务逻辑：
+  TEXT: (验车结算)
+  TEXT: [2-已取车]
+  TEXT: (用户下单)
+  TEXT: [1-可租]
+  TEXT: [2-已租]                     [3-维修]
+  TEXT: 订单生命周期
+  TEXT: (Order Status)
+  TEXT: 车辆状态
+  TEXT: (Car Status)
+  TEXT: [3-已还车]
+
+=== Slide 4 (Title) ===
+  [IMAGE: picture 42]
+  TEXT: 核心架构特征：
+  TEXT: 以RentOrder为引力中心，通过外键严格锁定人、车、员工的三方关系，确保每一笔交易的物理资产与 操作责任人绝对可溯源。
+  TEXT: 系统核心数据架构：
+  TEXT: Rent0rder
+  TEXT: (租赁订单表)
+  TEXT: user_id
+  TEXT: car_id
+  TEXT: ReturnRecord
+  TEXT: (还车记录表)
+  TEXT: 唯一约束
+  TEXT: order_record
+  TEXT: CarType
+  TEXT: (车型表)
+  TEXT: Employee
+  TEXT: (员工表)
+  TEXT: User
+  TEXT: (用户表)
+  TEXT: Car
+  TEXT: (车辆表)
+  TEXT: car_type_id
+  TEXT: emp_id
+
+=== Slide 5 (Title) ===
+  [IMAGE: picture 96]
+  TEXT: RentOrder (租赁订单表-收入)
+  TEXT: ●业务关联：通过 user_id,car_id,emp_id 三路外键汇聚全景信息。
+  TEXT: ●时间校验：rent_start_time与 rent_end_time 锁定物理资产的时间切片。
+  TEXT: ●状态流转：order_status 驱动后续业务流程。
+  TEXT: ●资产损耗追踪：
+  TEXT: mileage(还车里程):为后续车辆维保提供数据依据。
+  TEXT: damage_fee(车损赔偿):追踪异常情况，保护资产价值。
+  TEXT: ●责任交接：通过独立的 emp_id 记录验车员工，与下单员工解耦，实现交叉核验。
+  TEXT: 动态交易表结构设计
+  TEXT: 一对一约束(order_record)
+  TEXT: ReturnRecord   (还车记录表-结算)
+  [IMAGE: picture 108]
+
+=== Slide 6 (Title) ===
+  [IMAGE: 图片 1]
+
+=== Slide 7 (标题和内容) ===
+  [IMAGE: 图片 3]
+
+=== Slide 8 (Title) ===
+  [IMAGE: picture 112]
+  [TABLE]
+    Row 0: ['表名', '关键字段', '约束说明']
+    Row 1: ['CarType', 'id (INT), type_name (VARCHAR),seat_count', 'type_name 唯一']
+    Row 2: ['Car', 'id, car_type_id, plate_number, status', 'plate_number 唯一外键关联 CarType']
+    Row 3: ['User', 'id,username,phone,id_card,driver_license', '手机号、身份证严格唯一，防止重复恶意注册。']
+    Row 4: ['Employee', 'id, emp_no, name, position, phone', '工号严格唯一']
+    Row 5: ['RentOrder', 'id, user_id, car_id, emp_id,total_amount', '汇聚三大外键，记录起止时间']
+    Row 6: ['ReturnRecord', 'order_id, emp_id, mileage, damage_fee', 'order_id 唯一(1对1)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n记录损耗与罚款']
+  TEXT: 表结构：
+
+=== Slide 9 (Title) ===
+  [IMAGE: 图片 1]
+  [IMAGE: 图片 2]
+  [IMAGE: 图片 3]
+  [IMAGE: 图片 4]
+  [IMAGE: 图片 5]
+  [IMAGE: 图片 6]
+  TEXT: Car：
+  TEXT: CarType：
+  TEXT: Employee：
+  TEXT: User：
+  TEXT: RentOrder：
+  TEXT: ReturnRecord：
+
+=== Slide 10 (Title) ===
+  TEXT: 单表查询：
+  TEXT: 查询车辆表中共有哪些不同的品牌
+  TEXT: SELECT DISTINCT brand FROM Car;
+  TEXT: 查询日租金在 100 到 500 之间，且品牌是'丰田'或'别克'，且车牌号包含'粤'的可用车辆（status=1）
+  TEXT: SELECT * FROM Car WHERE daily_rent BETWEEN 100 AND 500
+  TEXT: AND brand IN ('丰田', '别克')
+  TEXT: AND plate_number LIKE '%粤%'
+  TEXT: AND status = 1;
+  TEXT: 查询没有录入手机号码的员工信息，并按工号降序排列
+  TEXT: SELECT * FROM Employee  WHERE phone IS NULL  ORDER BY emp_no DESC;
+  [IMAGE: 图片 4]
+  [IMAGE: 图片 5]
+  [IMAGE: 图片 6]
+
+=== Slide 11 (Title) ===
+  [IMAGE: picture 130]
+  TEXT: 我们的核心库存是哪些品牌?
+  TEXT: 它们的平均租金收益表现如何?
+  TEXT: SELECT
+  TEXT: brand,
+  TEXT: COUNT(*) AS car_count,
+  TEXT: ROUND(AVG(daily_rent), 2) AS avg_rent,
+  TEXT: MAX(daily_rent) AS max_rent,
+  TEXT: MIN(daily_rent) AS min_rent
+  TEXT: FROM Car
+  TEXT: GROUP BY brand
+  TEXT: HAVING COUNT(*) > 1;
+  TEXT: 分析逻辑：基于品牌进行聚合
+  TEXT: (GROUP BY)，统计每个品牌的车辆总数、平均租金、最高租金和最低租金, 利用 HAVING 子句过滤出拥有多辆车的核心品牌。
+  TEXT: 单表查询 | 分 组 与 聚 集 函 数
+  [IMAGE: 图片 2]
+
+=== Slide 12 (Title) ===
+  TEXT: 连接查询：
+  TEXT: 查询所有车辆的具体信息及其对应的车型名称和座位数
+  TEXT: SELECT c.plate_number, c.brand, c.model, ct.type_name, ct.seat_count  FROM Car c
+  TEXT: JOIN CarType ct ON c.car_type_id = ct.id;
+  [IMAGE: 图片 3]
+  TEXT: 查询所有车型及其下的车辆信息。
+  TEXT: SELECT ct.type_name, c.brand, c.plate_number  FROM CarType ct  LEFT JOIN Car c ON ct.id = c.car_type_id;
+  [IMAGE: 图片 5]
+
+=== Slide 13 (Title) ===
+  [IMAGE: 图片 4]
+  [IMAGE: 图片 5]
+  TEXT: 联查订单表、用户表、车辆表和员工表，获取一张完整的订单明细报表。
+
+=== Slide 14 (Title) ===
+  TEXT: 嵌套查询：
+  TEXT: 查询出产生过车损（damage_fee > 0）的用户详细信息
+  TEXT: SELECT * FROM User WHERE id IN (
+  TEXT: SELECT ro.user_id
+  TEXT: FROM RentOrder ro
+  TEXT: JOIN ReturnRecord rr ON ro.id = rr.order_id
+  TEXT: WHERE rr.damage_fee > 0
+  TEXT: );
+  [IMAGE: 图片 3]
+  TEXT: 查询日租金高于"紧凑型SUV" (car_type_id = 2) 日租金的车辆
+  TEXT: SELECT brand, model, daily_rent
+  TEXT: FROM Car
+  TEXT: WHERE daily_rent > ALL (
+  TEXT: SELECT daily_rent FROM Car WHERE car_type_id = 2
+  TEXT: );
+  [IMAGE: 图片 5]
+  [IMAGE: 图片 6]
+  TEXT: 查询目前尚未下过任何订单的潜在用户
+  TEXT: SELECT username, phone FROM User u WHERE NOT EXISTS (
+  TEXT: SELECT 1 FROM RentOrder ro
+  TEXT: WHERE ro.user_id = u.id
+  TEXT: );
+
+=== Slide 15 (Title) ===
+  TEXT: 集合查询：
+  TEXT: 将用户表和员工表的姓名和电话合并在一起，方便系统群发节日问候短信
+  TEXT: SELECT username AS contact_name, phone FROM User WHERE phone IS NOT NULL
+  TEXT: UNION
+  TEXT: SELECT name AS contact_name, phone FROM Employee WHERE phone IS NOT NULL;
+  [IMAGE: 图片 3]
+
+=== Slide 16 (Title) ===
+  TEXT: 基于派生表的查询：
+  TEXT: 谁是累计消费超过1000元的 VIP 用户?
+  TEXT: 通过子查询计算出每个用户的总消费金额
+  TEXT: 在外层查询中筛选出总消费超过 1000 元的 VIP 用户
+  TEXT: SELECT u.username, user_stats.total_spend
+  TEXT: FROM User u
+  TEXT: JOIN (
+  TEXT: SELECT user_id, SUM(total_amount) AS total_spend
+  TEXT: FROM RentOrder
+  TEXT: GROUP BY user_id
+  TEXT: ) AS user_stats ON u.id = user_stats.user_id
+  TEXT: WHERE user_stats.total_spend > 1000;
+  [IMAGE: 图片 4]
+
+=== Slide 17 (Title) ===
+  [IMAGE: picture 214]
+  TEXT: 业务逻辑后端化
+  TEXT: 采用 Java 搭建系统服务端，将前面设计的复杂 SQL 语句封装
+  TEXT: 成独立的业务接口。
+  TEXT: 操作界面可视化
+  TEXT: 开发直观的图形用户界面，让前台经办人员告别命令行，通过点击和拖拽
+  TEXT: 即可完成选车、派单与结算，接入可视化图表组件。
+  TEXT: 智能化升级利用
+  TEXT: 尝试接入大语言模型打造专属的 AI 租车 Agent，在客户端全天候解答关于
+  TEXT: 车型配置、租车规则的疑问，并根据用户对话意图自动推荐车型。
+  TEXT: 下一步架构：系统推进与扩展方向
+  TEXT: 完善数据库
+  TEXT: 从底层核心表搭建、多场景业务查询到未来接上前端界面与硬件模块的完整演进规划进行补充设计。
+  TEXT: 当前架构：
+  TEXT: 核心关系型
+  TEXT: 数据库(MySQL)
+
