@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Runtime Logs ###
+*.log
+boot_error.log
+compile.log
+compile_error.log
+error.txt
