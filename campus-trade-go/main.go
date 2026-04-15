@@ -101,12 +101,31 @@ func main() {
 				return
 			}
 			c.JSON(http.StatusOK, gin.H{"url": "/api/mall/uploads/" + filename})
+		})
+
 		// GET /api/mall/orders
 		api.GET("/orders", func(c *gin.Context) {
 			var orders []Order
 			// Mock user ID = 1 since no auth
 			DB.Where("user_id = ?", 1).Order("id DESC").Find(&orders)
 			c.JSON(http.StatusOK, gin.H{"data": orders})
+		})
+
+		// POST /api/mall/disputes
+		api.POST("/disputes", func(c *gin.Context) {
+			var d Dispute
+			if err := c.ShouldBindJSON(&d); err != nil {
+				c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+				return
+			}
+			// Hardcode reporter ID for demo
+			d.ReporterID = 1
+			d.Status = "待处理"
+			if err := DB.Create(&d).Error; err != nil {
+				c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to create dispute"})
+				return
+			}
+			c.JSON(http.StatusOK, gin.H{"message": "Report submitted successfully!", "data": d})
 		})
 	}
 

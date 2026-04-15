@@ -1,5 +1,39 @@
+# IDE
 .idea/
 .vscode/
 *.iml
+
+# Node
 node_modules/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pptx_venv/
+
+# Build artifacts
+*.exe
+target/
+
+# Logs
+*.log
+error.txt
+compile.log
+compile_error.log
+boot_error.log
+
+# Archives
+*.zip
+
+# Misc
+new/
+--main/
+uploads/
+二手交易平台/
+*.pptx

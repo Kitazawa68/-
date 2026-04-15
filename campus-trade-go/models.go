@@ -45,3 +45,19 @@ type Order struct {
 func (Order) TableName() string {
 	return "order"
 }
+
+// Dispute maps to the admin `dispute` table
+type Dispute struct {
+	ID          uint   `gorm:"primaryKey" json:"id"`
+	ReporterID  uint   `gorm:"column:reporter_id" json:"reporterId"`
+	TargetType  string `gorm:"column:target_type" json:"targetType"`
+	TargetID    uint   `gorm:"column:target_id" json:"targetId"`
+	Reason      string `gorm:"column:reason" json:"reason"`
+	EvidenceImg string `gorm:"column:evidence_img" json:"evidenceImg"`
+	Status      string `gorm:"column:status" json:"status"`
+	AdminNote   string `gorm:"column:admin_note" json:"adminNote"`
+}
+
+func (Dispute) TableName() string {
+	return "dispute"
+}

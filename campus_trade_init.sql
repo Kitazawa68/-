@@ -16,6 +16,7 @@ CREATE TABLE `goods` (
   `name` VARCHAR(100) NOT NULL COMMENT '商品名称',
   `price` DECIMAL(10,2) NOT NULL COMMENT '价格',
   `content` TEXT COMMENT '详情',
+  `image` VARCHAR(500) COMMENT '商品图片URL',
   `status` VARCHAR(20) DEFAULT 'ON_SALE' COMMENT '上架状态',
   `user_id` INT NOT NULL COMMENT '所属用户id',
   FOREIGN KEY (`user_id`) REFERENCES `user`(`id`)
